@@ -1,0 +1,30 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+} */
+
+table, th, td{
+    border:1px solid black;
+    border-collapse:collapse; 
+    /* collapse 2 bordrs ko merge krne k liye use hota hy */
+}
+
+/* table tr th:nth-child(2) {
+  font-weight: bold;
+  color: black;
+  background-color: aqua;
+} */
+ table tr td:nth-child(2) {
+  color: blue;
+}
+
+/* .feedback-label {
+  color: rgb(230, 200, 142);
+  font-weight: bold;
+} */
+
+#feedback {
+  background-color: #f9f1c9;
+}
