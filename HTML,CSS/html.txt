@@ -1,0 +1,2 @@
+radio mein sirf 1 option select ho gii
+aur checkbox mein 2 option ho skti hn

@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    min-height: 30vh;
+    font-size: 28px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p_c {
+    /* min-height: 0vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+}
+.pic {
+    width: 300px;
+    height: 330px;
+    border: 3.5px solid black;
+    border-radius: 10px;
+    object-fit: cover; 
+
+}
+ul{
+    list-style:none;
+        text-align:center;
+
+}
+
+li{
+    display:inline;
+    margin:10px;
+}
+button{
+    padding:10px 20px;
+    margin:10px;
+}
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title> Profile Card </title>
+</head>
+
+<body>
+    <header>
+        Profile-Card
+    </header>
+
+    <main>
+        <section class="p_c">
+            <img src="images/hassan.png" alt="Image" class="pic">
+        
+         <h1>Muhammad Hassan</h1>
+
+        <h3>MERN Stack Developer</h3>
+
+        <p>
+            Passionate about Web Development...
+        </p>
+         <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+        </ul>
+        
+         <button>Follow</button>
+        <button>Message</button>
+        </section>
+    </main>
+
+<footer>
+    <p>© 2026 Hassan</p>
+</footer>
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+header h2 {
+    min-height: 20vh;
+    font-size: 28px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/* color: black; */
+    gap: 30px;
+        padding: 20px 50px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkorange;
+}
+
+
+

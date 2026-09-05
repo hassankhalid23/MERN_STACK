@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="hustle.css">
+    <title>Hustle For Muscle</title>
+</head>
+<header>
+    <nav>
+        <h2>Hustle For Muscle</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Programs</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+
+
+    </nav>
+
+</header>
+
+<body>
+    <section class="Transform">
+        <div class="left">
+            <h1>Transform Your Body</h1>
+
+            <p>
+                Join the best gym and achieve your fitness goals.
+            </p>
+
+            <button>Join Now</button>
+            <button>Learn More</button>
+        </div>
+
+        <div class="right">
+            <img src="images/gym.avif" alt="Gym">
+        </div>
+    </section>
+
+    <!-- =================ABOUT SECTION================= -->
+    <section class="about" id="about">
+        <div class="about-left">
+            <img src="images/interior-gym.jpg" alt="Gym Interior">
+        </div>
+        <div class="about-right">
+            <h2>About Our Gym</h2>
+            <p>We are dedicated to helping you transform your body and health with expert guidance and modern
+                facilities.</p>
+
+            <ul>
+                <li>✓ Modern Equipment</li>
+                <li>✓ Certified Trainers</li>
+                <li>✓ Affordable Membership</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ================= 4. PROGRAMS SECTION ================= -->
+    <section class="programs" id="programs">
+        <h2 class="section-title">Our Programs</h2>
+
+        <div class="programs-container">
+            <!-- Card 1 -->
+            <div class="program-card">
+                <i class="ri-fire-line"></i>
+                <h3>Weight Training</h3>
+                <p>Build muscle strength and power with guided weight lifting routines.</p>
+                <button class="btn-secondary">Learn More</button>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="program-card">
+                <i class="ri-heart-pulse-line" id="heart-rate"></i>
+                <h3>Cardio</h3>
+                <p>Improve endurance, burn calories, and boost your heart health.</p>
+                <button class="btn-secondary">Learn More</button>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="program-card">
+                <i class="ri-user-star-line"></i>
+                <h3>Personal Training</h3>
+                <p>Get customized 1-on-1 coaching designed specifically for your goals.</p>
+                <button class="btn-secondary">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================MEMBERSHIP PLANS================= -->
+    <section class="membership" id="membership">
+        <h2 class="section-title">Membership Plans</h2>
+
+        <div class="plans-container">
+            <!-- Basic Plan -->
+            <div class="plan-card">
+                <h3>Basic</h3>
+                <div class="price">Rs. 2500<span>/month</span></div>
+                <!-- span se hum css separte edit kr skte hn -->
+                <ul>
+                    <li>Access to Gym Area</li>
+                    <li>Locker Facility</li>
+                    <li>1 Trainer Guidance Session</li>
+                    <li>Free Water Supply</li>
+                </ul>
+                <button class="btn-primary">Join Now</button>
+            </div>
+
+            <!-- Standard Plan -->
+            <div class="plan-card popular">
+                <h3>Standard</h3>
+                <div class="price">Rs. 4500<span>/month</span></div>
+                <ul>
+                    <li>Full Gym & Cardio Access</li>
+                    <li>Personal Diet Plan</li>
+                    <li>Weekly Progress Tracking</li>
+                    <li>Locker & Sauna Access</li>
+                </ul>
+                <button class="btn-primary">Join Now</button>
+            </div>
+
+            <!-- Premium Plan -->
+            <div class="plan-card">
+                <h3>Premium</h3>
+                <div class="price">Rs. 7000<span>/month</span></div>
+                <ul>
+                    <li>Dedicated Personal Trainer</li>
+                    <li>Custom Nutrition Plan</li>
+                    <li>24/7 Unlimited Access</li>
+                    <li>Steam Bath & All Amenities</li>
+                </ul>
+                <button class="btn-primary">Join Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= 8. CONTACT SECTION ================= -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+
+        <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary">Submit</button>
+        </form>
+    </section>
+    <!-- ================= 9. FOOTER ================= -->
+    <footer>
+        <div class="footer-container">
+            <!-- Logo / Bio -->
+            <div class="footer-col">
+                <h2>Hustle For Muscle</h2>
+                <p>Your journey to a healthier, stronger body starts right here.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#membership">Membership</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <p><i class="ri-map-pin-line"></i> Johar Town,Lahore</p>
+                <p><i class="ri-phone-line"></i> +92 77849674</p>
+                <p><i class="ri-mail-line"></i> info@hustleformuscle.com</p>
+            </div>
+
+            <!-- Social Icons -->
+            <div class="footer-col">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 Hustle For Muscle. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
