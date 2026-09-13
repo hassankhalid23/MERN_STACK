@@ -50,21 +50,47 @@ import './App.css'
 
 // -----------------------------------------KEYS using ID------------------------------------------------
 
-function KEYS() {
-  const students = [
-    { id: 1, name: "Hassan" },
-    { id: 2, name: "Helly" },
-    { id: 3, name: "Shapater" }
-  ];
+// function KEYS() {
+//   const students = [
+//     { id: 1, name: "Hassan" },
+//     { id: 2, name: "Helly" },
+//     { id: 3, name: "Shapater" }
+//   ];
 
-  return (
-    <>
-      {students.map((student) => (
-        <h2 key={student.id}>
-          {student.name}
-        </h2>
-      ))}
-    </>
-  );
-}
-export default KEYS;
+//   return (
+//     <>
+//       {students.map((student) => (
+//         <h2 key={student.id}>
+//           {student.name}
+//         </h2>
+//       ))}
+//     </>
+//   );
+// }
+// export default KEYS;
+
+
+// import { useState, useEffect } from "react";
+
+// function App() {
+//   const [name, setName] = useState("");
+
+//   // useEffect(() => {
+//   //   document.title = name;
+//   // }, [name]);
+
+//   return (
+//     <>
+//       <input
+//         type="text"
+//         value={name}
+//         onChange={(event) => setName(event.target.value)}
+//         placeholder="Enter your name"
+//       />
+
+//       <h1>Hello {name}</h1>
+//     </>
+//   );
+// }
+
+// export default App;
